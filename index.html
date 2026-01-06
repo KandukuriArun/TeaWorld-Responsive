@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Audiowide|Trirong|Monospace|Arial|Verdana|Courier New|Brush Script MT|Copperplate|Papyrus|fantasy|Roboto">
 </head>
+
 <body>
     <div class="main-container">
         <div>
-            <nav class="navbar">
+            <!--<nav class="navbar">
                 <div class="logo-container">
                     <a  href="#homeSection"><img src="ResImages/151-1518839_cup-hd-png-download.png" class="tea-logo"/></a>
                     <p class="tea-world-text">TEA WORLD</p>
@@ -28,266 +30,325 @@
                     <a class="tea-item" href="#LemonTeaSection"><li>Lemon</li></a>
                     <a class="tea-item" href="#followUsSection"><li>Follow Us</li></a>
                 </ul>
+            </nav> -->
+            <nav class="navbar navbar-expand-lg navbar-ligh fixed-top" id="navbarNa">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#homeSection"><img src="https://png.pngtree.com/png-clipart/20190612/original/pngtree-hand-painted-brown-coffee-cup-png-image_3400766.jpg" class="tea-image" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse tea-lists" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active tea-item" aria-current="page" href="#homeSection">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link tea-item" href="#aboutUsSection">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link tea-item" href="#greenTeaSection">Green</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link tea-item" href="#gingerTeaSection">Ginger</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link tea-item" href="#LemonTeaSection">Lemon</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link tea-item" href="#followUsSection">Follow Us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success tea-item" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
             </nav>
             <div class="home-container" id="homeSection">
-
                 <h1 class="tea-head-text">Feel The Taste of Tea</h1>
                 <div class="home-buttons-container">
-                    <button class="explore-button" >Explore</button>
+                    <button class="explore-button">Explore</button>
                     <button class="order-button">Order Now</button>
                 </div>
             </div>
             <div id="carouselExampleAutoplaying" class="carousel slide carsol" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="ResImages/cup-tea-table-with-plant-background_948735-188748.avif" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="ResImages/32-325842_photo-wallpaper-lemon-tea-hot-tea-hot-lemon.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="ResImages/istockphoto-1184148710-170667a.webp" class="d-block w-100" alt="...">
-                      </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://t4.ftcdn.net/jpg/05/68/26/65/360_F_568266596_dD05LhRcOQvR9n3GeFidtEtjKssMXCKL.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next car-icon" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+                    <div class="carousel-item">
+                        <img src="https://t4.ftcdn.net/jpg/01/25/68/03/360_F_125680347_PqYg8AUODHvTjpVNf61GPhG04NgMqPl6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.freepik.com/premium-photo/cup-coffee-with-plant-background_940863-38543.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next car-icon" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
             <div class="about-us-section" id="aboutUsSection">
                 <div class="about-us-text-container">
-                  <h1 class="about-us-head">About Us</h1>
-                  <p class="about-us-description">
-                    The Marvel legend began about nine years before its inception when in the mid-eighties, the Jain brothers started taking interest in the family run Kirana store in the small town of Uklana and found their mutual love in tea. In the subsequent years, they learned and understood everything about tea, right from tea tasting to packaging and distribution. More importantly, they started dreaming and laying the groundwork for taking their love of tea to the masses.
-                    In 1994, their vision of providing excellent quality tea to people in India and abroad, materialised in the form of Marvel Tea Estate. The years of hard work preceding the launch meant that within the first five years, Marvel tea had reached the markets of Haryana, Punjab, Jammu & Kashmir, Himachal Pradesh, Karnataka, Chandigarh, Delhi NCR, Madhya Pradesh, Uttar Pradesh and Uttarakhand.
-                    With the turn of the century, Marvel Group tasted unprecedented success in various sectors. <br/> <br /> In 2003, Marvel Tea was accredited with the prestigious ISO 9001:2000 certification for its religiously maintained quality standards. It also became a global brand with its launch in the markets of Korea, Italy, Egypt, USA, Australia, Hong Kong, and the Gulf countries. <br />
-                    Marvel Group believes in giving back to the society, the love that they have received from it. <br />A manifestation of the belief is the Marvel Eye Hospital in Uklana, started in the year 2005. The hospital conducts periodic free eye checkup and consultation camps, and raises awareness about eye health among the local residents and surrounding villages.
+                    <h1 class="about-us-head">About Us</h1>
+                    <p class="about-us-description">
+                        The Tea world began about nine years before its inception when in the mid-eighties, the Jain brothers started taking interest in the family run Kirana store in the small town of Uklana and found their mutual love in tea. In the subsequent years, they learned and understood everything about tea, right from tea tasting to packaging and distribution. More importantly, they started dreaming and laying the groundwork for taking their love of tea to the masses.
+                        In 1994, their vision of providing excellent quality tea to people in India and abroad, materialised in the form of Marvel Tea Estate. The years of hard work preceding the launch meant that within the first five years, Marvel tea had reached the markets of Haryana, Punjab, Jammu & Kashmir, Himachal Pradesh, Karnataka, Chandigarh, Delhi NCR, Madhya Pradesh, Uttar Pradesh and Uttarakhand.
+                        With the turn of the century, Marvel Group tasted unprecedented success in various sectors. <br /> <br /> <span class="extra-para">In 2003, Marvel Tea was accredited with the prestigious ISO 9001:2000 certification for its religiously maintained quality standards. It also became a global brand with its launch in the markets of Korea, Italy, Egypt, USA, Australia, Hong Kong, and the Gulf countries. <br />
+                            Marvel Group believes in giving back to the society, the love that they have received from it. <br />A manifestation of the belief is the Marvel Eye Hospital in Uklana, started in the year 2005. The hospital conducts periodic free eye checkup and consultation camps, and raises awareness about eye health among the local residents and surrounding villages.
 
-                    2010 turned out to be a milestone year for Marvel Group when it strategically moved its headquarters to the high rising Marvel Tower in Gurgaon. The move to the National capital region proved vital in the group’s expansion.
-                    Marvel Tea is a respected member of FAITTA (Federation of all India tea traders association). Today, it is one of the largest tea brands of India with a monthly production capacity of millions of kilograms of tea and a robust network of about a thousand distributors. The production facility in Uklana is a fully automated state of the art unit where tea leaves aren’t touched by a single pair of hands during their journey from procurement to packets.
-                    Throughout its journey, Marvel group has remained intact on the path of success under the exemplary leadership of its directors. <br /> <br />
-                  </p>
+                            2010 turned out to be a milestone year for Marvel Group when it strategically moved its headquarters to the high rising Marvel Tower in Gurgaon. The move to the National capital region proved vital in the group’s expansion.
+                            Marvel Tea is a respected member of FAITTA (Federation of all India tea traders association). Today, it is one of the largest tea brands of India with a monthly production capacity of millions of kilograms of tea and a robust network of about a thousand distributors. The production facility in Uklana is a fully automated state of the art unit where tea leaves aren’t touched by a single pair of hands during their journey from procurement to packets.
+                            Throughout its journey, Marvel group has remained intact on the path of success under the exemplary leadership of its directors. <br /> <br /></span>
+                    </p>
                 </div>
-                <img src="ResImages/WhatsApp Image 2023-12-13 at 3.25.26 PM.jpeg" class="tea-brand-image" />
+                <img src="https://t4.ftcdn.net/jpg/04/70/23/13/360_F_470231317_27MbFCJpP4CKg63efdOmtU4rTsUHiHGb.jpg" class="tea-brand-image" />
             </div>
             <div class="green-tea-section" id="greenTeaSection">
                 <h1 class="green-tea-heading">Green Tea</h1>
                 <div class="cards-container">
                     <div class="green-tea-card">
-                        <img src="ResImages/GreenTeaImages/green-tea-6.jpg" class="green-tea-image">
-                        
+                        <img src="https://www.vahdam.com/cdn/shop/files/Perfect_Cup_of_Green_Tea-1.webp?v=1692784065" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$3.5</span></p>
                             <div>
                                 <p class="rating">4.5<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
                     <div class="green-tea-card">
-                        <img src="ResImages/GreenTeaImages/green-tea-2.jpg" class="green-tea-image">
+                        <img src="https://www.jagranimages.com/images/newimg/07022023/07_02_2023-best_green_tea_brands_in_india_23322083.webp" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$3.0</span></p>
                             <div>
                                 <p class="rating">4.2<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
                     <div class="green-tea-card">
-                        <img src="ResImages/GreenTeaImages/green-tea-3.jpg" class="green-tea-image">
+                        <img src="https://res.cloudinary.com/jerrick/image/upload/v1680792708/642edc8401ec85001db78f1f.jpg" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$2.8</span></p>
                             <div>
                                 <p class="rating">4.4<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="green-tea-card">
-                        <img src="ResImages/GreenTeaImages/green-tea-4.jpg" class="green-tea-image">
+                    <div class="green-tea-card card-4">
+                        <img src="https://www.theteashelf.com/cdn/shop/articles/tea-glass-cup-wooden-table-tea-plantations-background_1200x1200.jpg?v=1679396414" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$2.5</span></p>
                             <div>
                                 <p class="rating">4.0<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="green-tea-card">
-                        <img src="ResImages/GreenTeaImages/green-tea-5.jpg" class="green-tea-image">
+                    <div class="green-tea-card card-5">
+                        <img src="https://thumbs.dreamstime.com/b/cups-green-tea-table-wooden-background-61901598.jpg" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$2.5</span></p>
                             <div>
                                 <p class="rating">4.1<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-               
             </div>
             <div class="green-tea-section" id="gingerTeaSection">
                 <h1 class="green-tea-heading">Ginger Tea</h1>
                 <div class="cards-container">
                     <div class="green-tea-card">
-                        <img src="ResImages/GingerTeaImages/gingerTea-1.webp" class="green-tea-image">
+                        <img src="https://draxe.com/wp-content/uploads/2020/04/DrAxeGingerTeaThumbnail.jpg" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$3.0</span></p>
                             <div>
                                 <p class="rating">4.8<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
                     <div class="green-tea-card">
-                        <img src="ResImages/GingerTeaImages/gingerTea-2.webp" class="green-tea-image">
+                        <img src="https://www.shutterstock.com/image-photo/fresh-milk-masala-tea-indian-600w-2498823945.jpg" class="green-tea-image" alt="no image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$2.5</span></p>
                             <div>
                                 <p class="rating">4.5<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
                     <div class="green-tea-card">
-                        <img src="ResImages/GingerTeaImages/gingerTea-4.webp" class="green-tea-image">
+                        <img src="https://static.toiimg.com/thumb/87098868.cms?imgsize=108058&width=800&height=800" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$4.5</span></p>
                             <div>
                                 <p class="rating">4.2<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="green-tea-card">
-                        <img src="ResImages/GingerTeaImages/gingerTea-5.webp" class="green-tea-image">
+                    <div class="green-tea-card card-4">
+                        <img src="https://www.flavorsofmumbai.com/wp-content/uploads/2016/07/ginger-tea-recipe16.jpg" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$3.0</span></p>
                             <div>
                                 <p class="rating">4.3<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="green-tea-card">
-                        <img src="ResImages/GingerTeaImages/gingerTea-6.webp" class="green-tea-image">
+                    <div class="green-tea-card card-5">
+                        <img src="https://img.freepik.com/premium-photo/fresh-hot-ginger-juice-glass-with-ginger-roots-healthy-drink-style_1339-135753.jpg" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$2.9</span></p>
                             <div>
                                 <p class="rating">3.9<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
             <div class="green-tea-section" id="LemonTeaSection">
                 <h1 class="green-tea-heading">Lemon Tea</h1>
                 <div class="cards-container">
                     <div class="green-tea-card">
-                        <img src="ResImages/LemonTeaImages/lemon-tea-1.jpg" class="green-tea-image">
+                        <img src="https://img.onmanorama.com/content/dam/mm/en/food/recipe/images/2023/2/16/lemon-tea.jpg" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$5.2</span></p>
                             <div>
                                 <p class="rating">4.5<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
                     <div class="green-tea-card">
-                        <img src="ResImages/LemonTeaImages/lemon-tea-2.jpg" class="green-tea-image">
+                        <img src="https://teakruthi.com/cdn/shop/articles/Lemon-tea-1_1024x1024.jpg?v=1503945772" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$4.7</span></p>
                             <div>
                                 <p class="rating">4.4<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
                     <div class="green-tea-card">
-                        <img src="ResImages/LemonTeaImages/lemon-tea-3.jpg" class="green-tea-image">
+                        <img src="https://static.vecteezy.com/system/resources/previews/000/790/554/large_2x/lemon-tea-photo.jpg" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$4.1</span></p>
                             <div>
                                 <p class="rating">4.1<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="green-tea-card">
-                        <img src="ResImages/LemonTeaImages/lemon-tea-4.jpg" class="green-tea-image">
+                    <div class="green-tea-card card-4">
+                        <img src="https://static.toiimg.com/photo/84339280.cms" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$3.8</span></p>
                             <div>
                                 <p class="rating">4.5<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="green-tea-card">
-                        <img src="ResImages/LemonTeaImages/lemon-tea-5.jpg" class="green-tea-image">
+                    <div class="green-tea-card card-5">
+                        <img src="https://media.istockphoto.com/id/497892585/photo/homemade-iced-tea-with-lemons.jpg?s=612x612&w=0&k=20&c=bJ9exSdr4HCoTDZvkxt-RkoAlgTtgUxaSaa2hqEQbhU=" class="green-tea-image">
                         <div class="pricing-card">
                             <p class="price">Price:<span id="mrp">$3.9</span></p>
                             <div>
                                 <p class="rating">4.1<span><i class="fa-solid fa-star star-icon"></i></span></p>
                             </div>
                             <div class="view-more-container">
-                                <a><p class="view-more-text">View More</p></a>
+                                <a>
+                                    <p class="view-more-text">View More</p>
+                                </a>
                                 <i class="fa-solid fa-arrow-right view-more-arrow"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
             <div class="follow-us-section" id="followUsSection">
                 <h1 class="follow-us-heading">Follow Us</h1>
@@ -295,7 +356,7 @@
                     <div class="icon-container">
                         <i class="fa-brands fa-instagram social-icon"></i>
                     </div>
-                    <div  class="icon-container">
+                    <div class="icon-container">
                         <i class="fa-brands fa-twitter social-icon"></i>
                     </div>
                     <div class="icon-container">
@@ -307,90 +368,108 @@
                 </div>
                 <div class="main-footer-container">
                     <div class="footer-1-container">
-                      <div class="top-brands-cont">
-                        <h2 class="top-brands-head">Top Brands </h2>
-                        <ul class="brands-list">
-                            <div class="brand-container">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <li class="brand-item">Yellow Tea</li>
-                            </div>
-                            <div class="brand-container">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <li class="brand-item">Red Tea</li>
-                            </div>
-                            <div class="brand-container">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <li class="brand-item">Elaichi Tea</li>
-                            </div>
-                            <div class="brand-container">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <li class="brand-item">Masala Tea</li>
-                            </div>
-                            <div class="brand-container">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <li class="brand-item">Green Tea</li>
-                            </div>
-                        </ul>
-                      </div>
-                      <div class="top-brands-cont">
-                        <h2 class="top-brands-head">Information</h2><br/>
-                        <ul class="brands-list">
-                            <div class="brand-container">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <li class="brand-item">RETURNS / REFUND POLICY</li><br />
-                            </div>
-                            <div class="brand-container">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <li class="brand-item">TERMS AND CONDITIONS</li>
-                            </div>
-            
-                        </ul>
-                      </div>
-                      <div class="top-brands-cont">
-                        <h2 class="top-brands-head">Know More </h2><br />
-                        <ul class="brands-list">
-                            <div class="brand-container">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <li class="brand-item">Our Branches</li>
-                            </div>
-                            <div class="brand-container">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <li class="brand-item">Careers</li>
-                            </div>
-                            <div class="brand-container">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <li class="brand-item">Media & News</li>
-                            </div>
-                            <div class="brand-container">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <li class="brand-item">Testimonals</li>
-                            </div>
-                        </ul>
-                      </div>
-                      <div class="top-brands-cont">
-                        <h2 class="top-brands-head">Contact Us: </h2>
-                        <ul class="brands-list">
-                            <div class="brand-container">
-                                <i class="fa-solid fa-location-dot"></i>
-                                <li class="brand-item">Tea House <br /> Plot no-XX | Sector-44 <br />Gurgaon - 122003 Haryana, <br />INDIA</li>
-                            </div>
-                            <div class="brand-container">
-                                <i class="fa-solid fa-phone"></i>
-                                <li class="brand-item">Phone: xxxx-xxxx-xxxx</li>
-                            </div>
-                            <div class="brand-container">
-                                <i class="fa-solid fa-envelope"></i>
-                                <li class="brand-item">Email: xxxxxx@gmail.com</li>
-                            </div>
-                        </ul>
-                      </div>
+                        <div class="top-brands-cont">
+                            <h2 class="top-brands-head">Top Brands </h2>
+                            <ul class="brands-list">
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <li class="brand-item">Yellow Tea</li>
+                                </div>
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <li class="brand-item">Red Tea</li>
+                                </div>
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <li class="brand-item">Elaichi Tea</li>
+                                </div>
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <li class="brand-item">Masala Tea</li>
+                                </div>
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <li class="brand-item">Green Tea</li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="top-brands-cont">
+                            <h2 class="top-brands-head">Information</h2><br />
+                            <ul class="brands-list">
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <li class="brand-item">RETURNS / REFUND POLICY</li><br />
+                                </div>
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <li class="brand-item">TERMS AND CONDITIONS</li>
+                                </div>
+
+                            </ul>
+                        </div>
+                        <div class="top-brands-cont">
+                            <h2 class="top-brands-head">Know More </h2><br />
+                            <ul class="brands-list">
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <li class="brand-item">Our Branches</li>
+                                </div>
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <li class="brand-item">Careers</li>
+                                </div>
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <li class="brand-item">Media & News</li>
+                                </div>
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <li class="brand-item">Testimonals</li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="top-brands-cont">
+                            <h2 class="top-brands-head">Contact Us: </h2>
+                            <ul class="brands-list">
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <li class="brand-item">Tea House <br /> Plot no-XX | Sector-44 <br />Gurgaon - 122003 Haryana, <br />INDIA</li>
+                                </div>
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <li class="brand-item">Phone: xxxx-xxxx-xxxx</li>
+                                </div>
+                                <div class="brand-container">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <li class="brand-item">Email: xxxxxx@gmail.com</li>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
-                    <hr class="hr-line"/>
+                    <div class="footer-one-container">
+                        <h3 class="contact-head">Contact Us</h3>
+                        <ul class="contacts-list">
+                            <div class="contact-container">
+                                <i class="fa-solid fa-location-dot icon"></i>
+                                <li class="contact-item">Tea House<br />Gurgaon - 122003 Haryana, <br />INDIA</li>
+                            </div>
+                            <div class="contact-container">
+                                <i class="fa-solid fa-phone icon"></i>
+                                <li class="contact-item">Phone: xxxx-xxxx-xxxx</li>
+                            </div>
+                            <div class="contact-container">
+                                <i class="fa-solid fa-envelope icon"></i>
+                                <li class="contact-item">Email: xxxxxx@gmail.com</li>
+                            </div>
+                        </ul>
+                    </div>
+                    <hr class="hr-line" />
                     <p class="copyright-text">Copyright <i class="fa-regular fa-copyright"></i> 2023 Tea World. All Rights Reserved</p>
                 </div>
             </div>
         </div>
     </div>
-    
+
 </body>
+
 </html>
